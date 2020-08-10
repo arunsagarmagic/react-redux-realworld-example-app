@@ -10,13 +10,13 @@ import settings from './reducers/settings';
 import { connectRouter } from 'connected-react-router';
 
 export default (history) => combineReducers({
-  article,
-  articleList,
-  auth,
-  common,
-  editor,
-  home,
-  profile,
-  settings,
-  router: connectRouter(history)
+	article,
+	articleList,
+	auth,
+	common,
+	editor,
+	home,
+	profile,
+	settings,
+	router: connectRouter(history)
 });
